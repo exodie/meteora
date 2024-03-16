@@ -9,16 +9,13 @@ export const Navbar = () => {
   const pathname = usePathname();
 
   return (
-    <nav className="w-full flex flex-row items-center">
+    <nav className="w-full flex flex-row items-center flex-wrap">
       <ul className="flex flex-row gap-x-2 mr-0 ml-auto">
         {items.map(({ text, href }) => {
           const isCurrentPage = pathname === href;
 
           return (
-            <li
-              className={`text-xl`}
-              key={text}
-            >
+            <li className={`text-xl font-bold`} key={text}>
               <Link
                 className={`${isCurrentPage ? "font-medium" : "font-light"}`}
                 href={href}
