@@ -5,7 +5,7 @@ import { Navbar } from "./navbar";
 
 export const Header = () => {
   return (
-    <header className="bg-header px-4 py-8">
+    <header className="bg-header m-4 rounded-2xl px-10 py-6">
       <div className="flex flex-row items-center">
         <Link href="/">
           <Image
