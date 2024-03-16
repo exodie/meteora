@@ -4,18 +4,14 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-rgb: 240, 240, 240;
-  --header-rgb: 232, 232, 232;
+  --background-rgb: 230, 230, 230;
+  --header-rgb: 220, 220, 220;
   --footer-rgb: 232, 232, 232;
 }
 
 body {
   color: rgb(var(--foreground-rgb));
   background: rgb(var(--background-rgb));
-}
-
-.logo  {
-  fill: red;
 }
 
 @layer utilities {
