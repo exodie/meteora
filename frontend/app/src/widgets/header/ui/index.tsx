@@ -1,15 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
 
+
 import { Navbar } from "./navbar";
 
 export const Header = () => {
   return (
-    <header className="bg-header m-4 rounded-2xl px-10 py-6">
+    <header className={"bg-headerBackground sticky top-4 backdrop-blur-sm m-4 rounded-2xl px-10 py-6"}>
       <div className="flex flex-row items-center">
         <Link href="/">
           <Image
-            className=""
             width={175}
             height={100}
             alt="Meteora"

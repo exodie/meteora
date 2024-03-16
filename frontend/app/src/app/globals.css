@@ -4,9 +4,8 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-rgb: 230, 230, 230;
-  --header-rgb: 220, 220, 220;
-  --footer-rgb: 220, 220, 220;
+  --background-rgb: 255, 255, 255;
+  --header_footer-rgba: rgba(241, 241, 241, 0.75);
 }
 
 body {

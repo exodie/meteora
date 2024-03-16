@@ -12,8 +12,8 @@ const config: Config = {
       colors: {
         background: "rgb(var(--background-rgb))",
         foreground: "rgb(var(--foreground-rgb))",
-        header: "rgb(var(--header-rgb))"
-      }
+        headerBackground: "var(--header_footer-rgba)"
+      },
     },
   },
   plugins: [],
