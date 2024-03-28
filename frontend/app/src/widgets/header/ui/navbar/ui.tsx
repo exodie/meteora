@@ -10,21 +10,19 @@ export const Navbar = () => {
 
   return (
     <nav className="w-full flex flex-row items-center flex-wrap">
-      <ul className="flex flex-row gap-x-2 mr-0 ml-auto">
-        {items.map(({ text, href }) => {
-          const isCurrentPage = pathname === href;
-
-          return (
-            <li className={`text-xl font-bold`} key={text}>
-              <Link
-                className={`${isCurrentPage ? "font-medium" : "font-light"}`}
-                href={href}
-              >
-                {text}
-              </Link>
-            </li>
-          );
-        })}
+      <ul className="flex flex-row gap-x-4 mr-0 ml-auto">
+        {items.map(({ text, href }) => (
+          <li className={`text-lg`} key={text}>
+            <Link
+              className={`font-light hover:font-medium transition-all ${
+                pathname === href && "font-medium"
+              }`}
+              href={href}
+            >
+              {text}
+            </Link>
+          </li>
+        ))}
       </ul>
     </nav>
   );
