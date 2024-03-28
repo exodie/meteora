@@ -1,20 +1,18 @@
 import Link from "next/link";
-import packageJson from "../../../../../package.json";
 
 export const FooterCreator = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <span className="mx-auto text-center">
-      {currentYear} - developed with ❤️ by{" "}
+    <span className="text-sm font-light">
+      {currentYear} -{" "}
       <Link
-        className="text-primaryColor"
+        className="text-blue-600 underline"
         target="_blank"
-        href={"https://github.com/exodie/"}
+        href={"https://t.me/sa_skja"}
       >
-        exodie
-      </Link>{" "}
-      | {` v${packageJson.version}`}
+        @im.
+      </Link>
     </span>
   );
 };

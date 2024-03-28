@@ -1,1 +1,0 @@
-export { FooterRepositoryInfo } from "./ui";
