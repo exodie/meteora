@@ -1,0 +1,24 @@
+{
+  "clothes": {
+    "outerwear": [
+      {
+        "codeOfItem": "000001",
+        "name": ""
+      }
+    ],
+
+    "undergaments": [
+      {
+        "codeOfItem": "0010001",
+        "name": ""
+      }
+    ],
+
+    "accessories": [
+      {
+        "codeOfItem": "100001",
+        "name": ""
+      }
+    ]
+  }
+}

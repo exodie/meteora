@@ -15,7 +15,7 @@ export const SearchInput = () => {
       }}
     >
       <input
-        className="bg-background rounded-md text-xl font-medium px-4 p-2 outline-none"
+        className="bg-background rounded-md text-md font-medium px-4 p-2 outline-none"
         type="text"
         placeholder="Поиск мест и адресов"
       />
