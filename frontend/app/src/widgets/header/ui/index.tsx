@@ -8,12 +8,7 @@ export const Header = () => {
     <header className="bg-background sticky backdrop-blur-sm m-4 rounded-2xl px-10">
       <div className="flex flex-row items-center">
         <Link href="/">
-          <Image
-            width={175}
-            height={100}
-            alt="Meteora"
-            src={"/logo.svg"}
-          />
+          <Image width={175} height={100} alt="Meteora" src={"/logo.svg"} />
         </Link>
 
         <Navbar />

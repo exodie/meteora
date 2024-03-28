@@ -23,6 +23,16 @@ export const Navbar = () => {
             </Link>
           </li>
         ))}
+        <li className="text-lg">
+          <Link
+            className={`font-light hover:font-medium transition-all ${
+              pathname === "/cart" && "font-medium"
+            }`}
+            href={"/cart"}
+          >
+            Корзина
+          </Link>
+        </li>
       </ul>
     </nav>
   );
