@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import "./main.css";
 import { Inter as FontSans } from "next/font/google";
 
 import { cn } from "@/shared/lib";

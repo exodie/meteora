@@ -9,7 +9,7 @@ export const BaseLayouts = ({
   return (
     <div className="flex flex-col min-h-full">
       <Header />
-      <main className="flex-1">{children}</main>
+      <main className="flex-1 mx-10">{children}</main>
       <Footer />
     </div>
   );
